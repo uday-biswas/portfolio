@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            margin: 0px;
+        }
+        #background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+        }
+        .text{
+            width: 100%;
+            height: 50vh;
+            color: white;
+            background-image: url("/images/dark_laptop.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 50vh;
+            border: 2px solid black;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+            position: relative;
+            height: 55vw;
+        }
+        .git{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0px;
+            width: 100%;
+            height: 55vw;
+            z-index: -2;
+        }
+        .hello{
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+        <div class="text">hello there</div>
+        <section class="flex">
+            <div class="hello">
+            </div>
+            <div class="hello">
+                <span>hello ji , kaise ho saare</span>
+            </div>
+            <div>
+                <img src="/images/github_photo.png" alt="github" class="git">
+                <video class="git" src="/videos/29. Favicon and Meta Tags.mp4" autoplay loop muted controls preload="auto"></video>
+            </div>
+        </section>
+</body>
+</html>
