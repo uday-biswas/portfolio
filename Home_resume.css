@@ -75,7 +75,7 @@ nav li a:hover{
 .heading{
     font-weight: bold;
     font-family: calibri;
-    font-size: 40px;
+    font-size: 1.5rem;
     margin: 10px;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.849);
@@ -270,7 +270,6 @@ nav li a:hover{
 }
 #footer{
     height: 80px;
-    width: 100%;
     border-top: 1px solid black;
     margin-top: 30px;
     padding: 10px;
