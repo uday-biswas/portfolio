@@ -148,7 +148,6 @@ nav li a:hover{
     position: absolute;
     left: 90%;
     top: 20px;
-    /* border: 1px dashed white; */
     width: 12px;
     height: 350px;
     z-index: 5;
