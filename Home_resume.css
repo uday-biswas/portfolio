@@ -189,7 +189,7 @@ nav li a:hover{
     top: 40%;
     position: sticky;
 }
-#projects{
+#achieve{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-image: linear-gradient(to top right, rgba(216, 150, 27, 0.842), pink);
