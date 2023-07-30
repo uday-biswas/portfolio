@@ -44,6 +44,16 @@
         .hello{
             color: violet;
         }
+        #square{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: all 0.5s ease-in-out;
+        }
+        #square:hover{
+            border-radius: 50%;
+            transform: rotate(360deg) translate(50px,-50px);
+        }
     </style>
 </head>
 <body>
@@ -56,8 +66,9 @@
             </div>
             <div>
                 <img src="/images/github_photo.png" alt="github" class="git">
-                <video class="git" src="/videos/29. Favicon and Meta Tags.mp4" autoplay loop muted controls preload="auto"></video>
+                <video class="git" src="/videos/29. Favicon and Meta Tags.mp4" loop muted controls preload="auto"></video>
             </div>
         </section>
+        <div id="square"></div>
 </body>
 </html>
